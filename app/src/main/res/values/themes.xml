@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InovantSolutionTask" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.InovantSolutionTask" parent="Base.Theme.InovantSolutionTask" />
+    
+    <style name="roundedImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="android:background">#000000</item>
+        <item name="strokeColor">#000000</item>
+        <item name="android:padding">5dp</item>
+    </style>
+</resources>
